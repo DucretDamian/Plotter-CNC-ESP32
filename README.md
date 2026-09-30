@@ -52,8 +52,8 @@
 
 *(Include screenshots or execution examples if applicable)*
 -->
-1. **Configuración Inicial:** Conectar la fuente externa ATX a la protoboard y a los controladores ULN2003. Conectar el ESP32 a la computadora mediante cable USB, cargar el código desde el IDE de Arduino y reiniciar (desconectar/conectar).
-2. **Conexión al Sistema:** Buscar en la PC o móvil la red WiFi `cnc-plotter` e ingresar la contraseña `12345678`. Abrir la interfaz HTML en el navegador y presionar el botón de conexión.
+1. **Configuración Inicial:** Conectar la fuente externa ATX a la protoboard y a los controladores ULN2003. Conectar el ESP32 a la computadora mediante cable USB. Abrir el archivo `.ino` ubicado en la carpeta `sketch_sep23a` desde el IDE de Arduino, compilar, subir a la placa y reiniciar (desconectar/conectar).
+2. **Conexión al Sistema:** Buscar en la PC o móvil la red WiFi `cnc-plotter` e ingresar la contraseña `12345678`. Abrir el archivo HTML ubicado dentro de la carpeta `CNC Plotter Web` de forma local en el navegador y presionar el botón de conexión.
 3. **Calibración:** En la pestaña "Calibración", configurar el Eje Z en 5 mm. Desde "Control", mover manualmente el cabezal a la esquina inferior izquierda. Ajustar el Eje Z hasta que el lápiz quede suspendido sobre el papel sin tocarlo. Definir este punto como "Cero (0,0,0)".
 4. **Dibujo (Modos de operación):** 
    - *Modo Control:* Mover libremente usando las flechas web.
@@ -70,7 +70,7 @@
 - Diagram/export files: [Enter file names/paths if included in the repo]
 -->
 - *Nota sobre la simulación:* Al tratarse de un ensamble mecánico complejo que coordina trayectorias físicas con piezas impresas en 3D, el proyecto está enfocado en su implementación física en hardware.
-- Diagram/export files: Los diagramas de conexión, ensamblado y el código fuente se encuentran detallados en el informe del proyecto (`TPIntegrador_Grupo7`).
+- Diagram/export files: El código fuente del controlador se encuentra en la carpeta `sketch_sep23a` y la interfaz gráfica en `CNC Plotter Web`.
 
 ---
 
