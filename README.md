@@ -90,4 +90,3 @@
   - Añadir un **joystick analógico** para control manual y dibujo a mano alzada.
   - Instalar un **botón de interrupción por hardware** para abortar el dibujo en emergencias de forma instantánea.
   - Implementar **pulsadores de final de carrera (Endstops)** en los ejes X e Y para detectar límites físicos y permitir autocalibración.
-```eof
